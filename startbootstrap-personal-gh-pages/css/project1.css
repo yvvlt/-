@@ -1,0 +1,103 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .container {
+    width: 80%;
+
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  .section {
+    padding: 60px 0px; /* 상단과 하단에 60px, 좌우에 20px의 여백을 추가 */
+    margin: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .col-xxl-5 {
+    max-width: 80%; /* 너비를 줄여서 더 많은 여백을 확보 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+  }
+  
+  /* 반응형: 화면 크기가 768px 이하일 경우 padding을 더 크게 */
+  @media (max-width: 768px) {
+    .section {
+      padding: 40px 10px;
+    }
+  
+    .col-xxl-5 {
+      max-width: 90%; /* 모바일에서는 더 넓게 */
+    }
+  }
