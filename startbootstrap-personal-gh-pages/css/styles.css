@@ -11732,3 +11732,46 @@ html {
     left: -2vw;
   }
 }
+.modal-dialog-scrollable .modal-body {
+  max-height: 400px;  /* 원하는 높이로 설정 */
+  overflow-y: auto;   /* 세로 스크롤 가능하게 설정 */
+}
+/* 모달 배경을 어두운 색으로 설정 */
+.modal-content {
+  background-color: #f8f9fa;  /* 밝은 배경 */
+  border-radius: 10px;  /* 둥근 모서리 */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /* 그림자 */
+}
+
+/* 헤더 스타일 */
+.modal-header {
+  border-bottom: none; /* 하단 경계선 제거 */
+  background-color: #007bff;  /* 파란색 배경 */
+  color: white;  /* 흰색 텍스트 */
+  border-radius: 10px 10px 0 0;  /* 상단 모서리 둥글게 */
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+/* 모달 내용 부분 */
+.modal-body {
+  font-size: 1rem;
+  color: #333;  /* 어두운 텍스트 */
+  line-height: 1.5;
+}
+
+/* 푸터 버튼 스타일 */
+.modal-footer button {
+  font-weight: bold;
+}
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
