@@ -5141,6 +5141,7 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 0.375rem;
   opacity: 0.5;
+
 }
 .btn-close:hover {
   color: #000;
@@ -11748,7 +11749,7 @@ html {
   border-bottom: none; /* 하단 경계선 제거 */
   background-color: #007bff;  /* 파란색 배경 */
   color: white;  /* 흰색 텍스트 */
-  border-radius: 10px 10px 0 0;  /* 상단 모서리 둥글게 */
+  border-radius: 6px 6px 0 0;  /* 상단 모서리 둥글게 */
 }
 
 .modal-title {
